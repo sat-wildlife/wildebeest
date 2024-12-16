@@ -15,7 +15,7 @@ Run train.py
 
 ## Step 3: Detection on new satellite imagery - [YOLO_Model]
 
-We implemented the YOLO v8 code based on [ultralytics](https://github.com/ultralytics/ultralytics) and modified the predictor to enable the model to be directly applied to large satellite imagery.
+We implemented the YOLO code based on [ultralytics](https://github.com/ultralytics/ultralytics) and modified the predictor to enable the model to be directly applied to large satellite imagery.
 
 Before running, modify the file paths in ultralytics/engine/predictor.py. Next, adjust the paths in predict.py and execute the script.
 
