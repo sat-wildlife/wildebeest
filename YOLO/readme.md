@@ -19,7 +19,7 @@ We implemented the YOLO v8 code based on [ultralytics](https://github.com/ultral
 
 Before running, modify the file paths in ultralytics/engine/predictor.py. Next, adjust the paths in predict.py and execute the script.
 
-## Step 4: Data - [Post_Processing]
+## Step 4: Post processing - [Post_Processing]
 
 - **01_Object_Center.py**: Extracts the center points of bounding boxes as wildebeest target points. Both input and output are in Esri Shapefile format.  
 - **02_Filter_Point.py**: Filters target points based on the image, retaining only one target point within a single pixel range.  
