@@ -16,5 +16,6 @@ Train the U-Net-based model using the ensemble approach.
 Calculate the accuracy of the model on test dataset at the wildebeest-individual level.
 ## Step 4: Detection on new satellite imagery - [4_Prediction_Detection wildebeest.ipynb]
 Run the model on new satellite imagery to get point-level predictions.
-# References
-For more technical details please refer to our paper (https://www.nature.com/articles/s41467-023-38901-y).
+# Acknowledgement
+The code base is built with [ultralytics](https://github.com/ultralytics/ultralytics).
+Thanks for the great implementations!
