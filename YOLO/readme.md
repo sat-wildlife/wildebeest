@@ -32,4 +32,4 @@ This part is consistent with the corresponding part in our U-Net implementation.
 
 ## Acknowledgement
 The code base is built with [ultralytics](https://github.com/ultralytics/ultralytics).
-Thanks for the great implementations!
+Appreciate the excellent implementations!
