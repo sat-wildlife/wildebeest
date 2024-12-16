@@ -2,8 +2,6 @@
 Use YOLO to detect wildebeest (and zebras) and get point-level predictions in the Serengeti-Mara ecosystem from very-high-resolution satellite imagery. 
 Please feel free to contact me at xuzeyu689@gmail.com if you have any questions.
 
-# Setup and Installation
-
 # Steps
 ## Step 1: Data preparation - [Data_Preparation]
 - **01_YOLO_Samples.py**: Generates sample path files in YOLO format.  
@@ -12,6 +10,7 @@ Please feel free to contact me at xuzeyu689@gmail.com if you have any questions.
 - **04_Histogram Matching.py**: Performs histogram matching for the samples.  
 
 ## Step 2: Model training - [YOLO_Model]
+
 Run train.py
 
 ## Step 3: Detection on new satellite imagery - [YOLO_Model]
@@ -25,7 +24,7 @@ Before running, modify the file paths in ultralytics/engine/predictor.py. Next, 
 - **01_Object_Center.py**: Extracts the center points of bounding boxes as wildebeest target points. Both input and output are in Esri Shapefile format.  
 - **02_Filter_Point.py**: Filters target points based on the image, retaining only one target point within a single pixel range.  
 - **03_Shapefile_Clipping.py**: Clips Shapefile vectors.
-- 
+  
 ## Step 5: Accuracy assessment
 
 This part is consistent with the corresponding part in our U-Net implementation.
