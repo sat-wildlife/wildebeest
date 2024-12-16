@@ -5,9 +5,9 @@ Please feel free to contact me at xuzeyu689@gmail.com if you have any questions.
 # Steps
 ## Step 1: Data preparation - [Data_Preparation]
 - **01_YOLO_Samples.py**: Generates sample path files in YOLO format.  
-- **02_Random Image Crop.py**: Randomly extracts fixed-size sub-images from large images for histogram matching.  
+- **02_Random_Image_Crop.py**: Randomly extracts fixed-size sub-images from large images for histogram matching.  
 - **03_Image_Stitching.py**: Stitches the sub-images from the previous step into a single large image.  
-- **04_Histogram Matching.py**: Performs histogram matching for the samples.  
+- **04_Histogram_Matching.py**: Performs histogram matching for the samples.  
 
 ## Step 2: Model training - [YOLO_Model]
 
