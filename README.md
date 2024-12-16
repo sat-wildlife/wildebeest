@@ -12,3 +12,4 @@ allowing for precise localization and identification of wildebeest pixels. We th
 ## YOLO
 YOLO, or 'You Only Look Once', is optimized for real-time object detection. 
 This model identifies bounding boxes around objects, which enables the detection of wildebeest as discrete entities within the imagery. 
+The code base of YOLO is built with [ultralytics](https://github.com/ultralytics/ultralytics). Appreciate the excellent implementations!
