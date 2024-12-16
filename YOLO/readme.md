@@ -26,7 +26,7 @@ Before running, modify the file paths in ultralytics/engine/predictor.py. Next, 
 - **02_Filter_Point.py**: Filters target points based on the image, retaining only one target point within a single pixel range.  
 - **03_Shapefile_Clipping.py**: Clips Shapefile vectors.
 - 
-## Step 3: Accuracy assessment - [YOLO_Model]
+## Step 5: Accuracy assessment
 
 This part is consistent with the corresponding part in our U-Net implementation.
 
