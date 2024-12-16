@@ -8,7 +8,8 @@ Note: If you use Google Colaboratory, you may encounter some issues with depreca
 # Steps
 ## Step 1: Data preparation - [1_Prepare image and masks.ipynb]
 Crop the image patches from the satellite image according to the areas of interest.</p>
-Create the segmentation masks from the point annotations of animal individuals.
+Create the segmentation masks from the point annotations of animal individuals.</p>
+Please note that the commercial satellite imagery dataset used in this study is not publicly available due to copyright issues. Please use your own data instead.
 ## Step 2: Model training - [2_Model training.ipynb]
 Prepare the data directories from the dataset above.
 Train the U-Net-based model using the ensemble approach.
