@@ -1,0 +1,11 @@
+# train val test 集合
+train: data/train.txt
+val: data/val.txt
+test: data/test.txt
+
+# 类别标签
+names:
+  0: wildebeest
+
+# nc: 类别数
+nc: 1
