@@ -18,7 +18,7 @@ Run train.py
 
 We implemented the YOLO v8 code based on Ultralytics and modified the predictor to enable the model to be directly applied to large satellite imagery.
 
-Before running, the file paths in ultralytics/engine/predictor.py need to be modified.
+Before running, modify the file paths in ultralytics/engine/predictor.py. Next, adjust the paths in predict.py and execute the script.
 
 ## Step 4: Data - [Post_Processing]
 
